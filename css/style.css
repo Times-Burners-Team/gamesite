@@ -1,10 +1,18 @@
+
 body{
- background: url(../img/bg1.jpg);
  font-family: Verdana;
-  }
+ background-image: url(../img/bg1.jpg)
+}
+/*
+HEADER
+*/
 header{
   width: 100%;
   margin-top: 100px;
+}
+.tbt-menu{
+  background: #8b8b8b;
+
 }
 .tbt-menu ul,
 .tbt-menu ol{
@@ -72,3 +80,70 @@ header{
 .tbt-menu li:hover > ul{
   display: block;
 }
+/*
+HEADER
+*/
+/*
+Content
+*/
+content{
+  color:rgb(210, 214, 214);
+}
+content .container{
+  border: 2px solid red;
+  width: 100%;
+  padding: 0px;
+}
+content .col-lg-10{
+  border: 2px solid red;
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+}
+/*
+ASIDE
+*/
+aside .col-lg-2{
+  border: 2px solid red;
+  max-height: 450px;
+  height: 450px;
+  right: 0;
+  margin: 50px 20px 50px 0px;
+  position: fixed;
+}
+/*
+ASIDE
+*/
+/*
+Content
+*/
+/*
+FOOTER
+*/
+footer{
+ background: #8b8b8b;
+ color: black;
+ line-height: 50px;
+ padding: 0 20px;
+}
+footer .container{
+  width: 100%;
+}
+footer .col-lg-5{
+  justify-content:center;
+}
+footer .tbt-list{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+footer .tbt-list i{
+  padding: 10px 0px 0px 150px;
+  font-size: 45px;
+}
+footer #copy{
+  text-align: right;
+}
+/*
+FOOTER
+*/

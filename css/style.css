@@ -1,10 +1,17 @@
 body{
- background: url(../img/bg1.jpg);
  font-family: Verdana;
-  }
+ background-image: url(../img/bg1.jpg)
+}
+/*
+HEADER
+*/
 header{
   width: 100%;
   margin-top: 100px;
+}
+.tbt-menu{
+  background: #ececed;
+
 }
 .tbt-menu ul,
 .tbt-menu ol{
@@ -72,3 +79,38 @@ header{
 .tbt-menu li:hover > ul{
   display: block;
 }
+/*
+HEADER
+*/
+/*
+Content
+*/
+content .container{
+  border: 2px solid red;
+  width: 100%;
+  padding: 0px;
+}
+content .col-lg-10{
+  border: 2px solid red;
+  margin: 0px;
+  padding: 0px;
+
+  width: 80%;
+}
+/*
+ASIDE
+*/
+aside .col-lg-2{
+  border: 2px solid red;
+  max-height: 450px;
+  height: 450px;
+  right: 0;
+  margin: 50px 20px 50px 0px;
+  position: fixed;
+}
+/*
+ASIDE
+*/
+/*
+Content
+*/

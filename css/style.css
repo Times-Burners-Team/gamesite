@@ -1,19 +1,21 @@
 body{
- background-image: url("https://tbttroy.ru/lessons/les3697/demo/img/escheresque_ste.png");
+ background: url(../img/bg1.jpg);
  font-family: Verdana;
- width: 100%;
-}
+  }
 header{
   width: 100%;
+  margin-top: 100px;
 }
-
 .tbt-menu ul,
 .tbt-menu ol{
   list-style: none;
 }
 .tbt-menu > ul{
   display: flex;
-  justify-content: center;
+  justify-content:center;
+}
+.tbt-menu li{
+  height: 100%;
 }
 .tbt-menu > ul li a{
   display: block;
@@ -26,6 +28,7 @@ header{
   transition: all 0.3s ease;
 }
 .tbt-menu > ul li{
+  height: 100%;
   position: relative;
   border-right: 1px solid #c7c8ca;
 }

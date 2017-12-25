@@ -1,3 +1,4 @@
+
 body{
  font-family: Verdana;
  background-image: url(../img/bg1.jpg)
@@ -10,7 +11,7 @@ header{
   margin-top: 100px;
 }
 .tbt-menu{
-  background: #ececed;
+  background: #8b8b8b;
 
 }
 .tbt-menu ul,
@@ -85,6 +86,9 @@ HEADER
 /*
 Content
 */
+content{
+  color:rgb(210, 214, 214);
+}
 content .container{
   border: 2px solid red;
   width: 100%;
@@ -94,7 +98,6 @@ content .col-lg-10{
   border: 2px solid red;
   margin: 0px;
   padding: 0px;
-
   width: 80%;
 }
 /*
@@ -113,4 +116,34 @@ ASIDE
 */
 /*
 Content
+*/
+/*
+FOOTER
+*/
+footer{
+ background: #8b8b8b;
+ color: black;
+ line-height: 50px;
+ padding: 0 20px;
+}
+footer .container{
+  width: 100%;
+}
+footer .col-lg-5{
+  justify-content:center;
+}
+footer .tbt-list{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+footer .tbt-list i{
+  padding: 10px 0px 0px 150px;
+  font-size: 45px;
+}
+footer #copy{
+  text-align: right;
+}
+/*
+FOOTER
 */

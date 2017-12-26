@@ -7,8 +7,10 @@ body{
 HEADER
 */
 header{
+  position:relative;
+  z-index: 2;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .tbt-menu{
   background: #8b8b8b;
@@ -74,7 +76,7 @@ header{
 }
 .tbt-menu li > ul li ul{
   position:absolute;
-  right: -150px;
+  right: -111px;
   top: 0;
 }
 .tbt-menu li:hover > ul{
@@ -87,6 +89,7 @@ HEADER
 Content
 */
 content{
+  z-index: 1;
   color:rgb(210, 214, 214);
 }
 content .container{
@@ -105,10 +108,10 @@ ASIDE
 */
 aside .col-lg-2{
   border: 2px solid red;
-  max-height: 450px;
-  height: 450px;
+  max-height: 3500px;
+  height: 650px;
   right: 0;
-  margin: 50px 20px 50px 0px;
+  margin: 5px 20px 50px 20px;
   position: fixed;
 }
 /*

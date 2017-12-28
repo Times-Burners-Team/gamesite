@@ -10,9 +10,37 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <style>
+    body{
+      font-family: Verdana;
+      background-image: url('{% static "img/bg1.jpg" %}');
+    }
+    p {
+      color: white;
+    }
+    </style>
   </head>
   <body>
+
   {% block content %}
+
   {% endblock %}
+  <footer class="footer">
+  <div class="container">
+    <div class="col-lg-2">
+      GlazGameraTM
+    </div>
+    <div class="col-lg-5">
+      <ul class="tbt-list">
+        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      </ul>
+    </div>
+    <div id="copy" class="col-lg-5">
+      Все права защищены.Копирование возможно с отссылкой на <a href="#">блог</a>
+    </div>
+  </div>
+  </footer>
 </body>
 </html>

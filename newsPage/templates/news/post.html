@@ -1,0 +1,28 @@
+{% extends "mainPage/wrapper.html" %}
+
+{% block content %}
+<header>
+  <nav class="tbt-menu">
+    <ul>
+      <li><a href="/"><i class="fa fa-home"></i>Главная</a></li>
+      <li><a href="/news/"><i class="fa fa-server"></i>Новости</a>
+        <ul>
+          <li><a href="#">Видео</a>
+            <ul>
+              <li><a href="#">Тизеры</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Аудио</a></li>
+          <li><a href="#">Фотографии</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><i class="fa fa-cogs"></i>Форум</a></li>
+      <li><a href="#"><i class="fa fa-folder-open"></i>Мой профиль</a></li>
+      <li><a href="#"><i class="fa fa-envelope"></i>FeedBack</a></li>
+    </ul>
+  </nav>
+</header>
+<h2 class="text-info">{{articles.title}}</h2>
+<h6 class="text-info">Опубликовано: {{articles.date|date:"d-m-Y"}}</h6>
+<p>{{articles.post|safe|linebreaks}}</p>
+{% endblock %}

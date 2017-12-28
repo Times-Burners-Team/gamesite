@@ -1,8 +1,4 @@
 
-body{
- font-family: Verdana;
- background-image: url('{% static "img/bg1.jpg" %}');
-}
 /*
 HEADER
 */

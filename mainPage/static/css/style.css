@@ -128,7 +128,7 @@ article img{ /*размер изображений слайдера*/
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3),
 #switch5:checked ~ #controls label:nth-child(4){
-	background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background-image: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
 	margin: 0 0 0 -84px; /*сдвиг влево*/
 	display: block;
@@ -152,6 +152,10 @@ article img{ /*размер изображений слайдера*/
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
 	cursor: pointer;
+}
+label{
+  padding-bottom: 10px;
+  margin: 0 0 30px 0;
 }
 
 .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
@@ -240,7 +244,7 @@ content .container{
   border: 2px solid red;
   width: 100%;
   padding: 0px;
-  margin: 0 0 50px 0;
+  margin: 10px 0 50px 0;
   overflow: hidden;
 }
 content .col-lg-10{

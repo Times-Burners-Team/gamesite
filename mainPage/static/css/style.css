@@ -8,7 +8,8 @@ HEADER
 }
 .tbt-menu{
   background: #8b8b8b;
-
+  position: relative;
+  z-index: 2;
 }
 .tbt-menu ul,
 .tbt-menu ol{
@@ -84,6 +85,9 @@ Content
 */
 content{
   color:rgb(210, 214, 214);
+  position: relative;
+  z-index: 1;
+  
 }
 content .container{
   border: 2px solid red;

@@ -76,6 +76,7 @@ HEADER
 .tbt-menu li > ul li ul{
   position:absolute;
   right: -110px;
+  margin-top: -1px;
   top: 0;
 }
 .tbt-menu li:hover > ul{

@@ -21,52 +21,10 @@
     </ul>
   </nav>
 </header>
-<content>
-  <div class="container">
-    <div class="col-lg-10">
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-<h4>origjaoijng0ojnr0owegjnowaorg</h4>
-    </div>
+{% for post in object_list %}
+  <a href="/news/{{post.id}}"><h3>{{post.title}}</h3></a>
+  <h5>{{post.date|date:"d-m-Y"}}</h5>
+{% endfor %}
     <aside>
         <div class="col-lg-2">
           <div class="row-centered">

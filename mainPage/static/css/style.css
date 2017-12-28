@@ -1,12 +1,8 @@
 
-body{
- font-family: Verdana;
- background-image: url(../img/bg1.jpg)
-}
 /*
 HEADER
 */
-header{
+ header{
   width: 100%;
   margin-top: 100px;
 }
@@ -143,7 +139,7 @@ footer .tbt-list i{
 }
 footer #copy{
   text-align: right;
-}
+} */
 /*
 FOOTER
 */
